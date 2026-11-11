@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Forgotten-tab Graveyard",
+  "version": "1.0.0",
+  "description": "A quiet memorial for the tabs you closed.",
+  "permissions": ["tabs", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Open the tab graveyard" },
+  "icons": { "16": "icon.svg", "32": "icon.svg", "128": "icon.svg" },
+  "commands": { "open-graveyard": { "suggested_key": { "default": "Ctrl+Shift+G" }, "description": "Open the forgotten-tab graveyard" } }
+}
